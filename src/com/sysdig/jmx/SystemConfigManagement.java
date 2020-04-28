@@ -1,4 +1,4 @@
-package com.journaldev.jmx;
+package com.sysdig.jmx;
 import java.lang.management.ManagementFactory;
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.MBeanRegistrationException;

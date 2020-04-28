@@ -1,4 +1,4 @@
-package com.journaldev.jmx;
+package com.sysdig.jmx;
 
 public interface SystemConfigMBean {
 
