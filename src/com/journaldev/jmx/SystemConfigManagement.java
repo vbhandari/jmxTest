@@ -20,7 +20,7 @@ public class SystemConfigManagement {
         mbs.registerMBean(mBean, name);
         do{
             Thread.sleep(3000);
-            System.out.println("Thread Count="+mBean.getThreadCount()+":::Schema Name="+mBean.getSchemaName());
+            // System.out.println("Thread Count="+mBean.getThreadCount()+":::Schema Name="+mBean.getSchemaName());
         }while(mBean.getThreadCount() !=0);
 
     }
